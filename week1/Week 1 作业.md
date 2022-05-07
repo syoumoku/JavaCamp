@@ -362,4 +362,4 @@ public class HelloClassLoader extends ClassLoader{
 - DirectMemory 堆外内存
 - Xss 设置每个线程栈的字节数，影响栈的深度
 
-![JMM Parameter.drawio](C:\Users\zhaomu\Desktop\编程学习\JavaCamp\JMM Parameter.drawio.svg)
+![JMM Parameter.drawio](.\JMM Parameter.drawio.svg)
