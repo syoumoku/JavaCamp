@@ -1,0 +1,13 @@
+CREATE TABLE `user` (
+
+`id` bigint(20) unsigned NOT NULL auto_increment,
+
+`username` varchar(50) NOT NULL COMMENT '用户名',
+
+`create_time` timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
+
+`update_time` timestamp NOT NULL default '0000-00-00 00:00:00',
+
+PRIMARY KEY (`id`)
+
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='用户表';
